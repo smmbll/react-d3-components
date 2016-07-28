@@ -1,24 +1,12 @@
 {
-  "name": "react-starterify",
-  "version": "2.4.1",
-  "description": "React JS application skeleton using Browserify and other awesome tools",
+  "name": "d3-react-components",
+  "version": "1.0.0",
+  "description": "Common implementations of D3 done with React components",
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Granze/react-starterify"
+    "url": "https://github.com/smmbll/d3-react-components"
   },
-  "keywords": [
-    "gulp",
-    "react",
-    "browserify",
-    "seed",
-    "boilerplate",
-    "kickstarter",
-    "ES6",
-    "ES2015",
-    "babel",
-    "ava"
-  ],
   "ava": {
     "require": [
       "babel-register"
@@ -32,13 +20,11 @@
     "deploy": "gulp deploy",
     "test": "ava --tap | tap-nyan"
   },
-  "author": "Maurizio Mangione",
+  "author": "smmbll",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Granze/react-starterify/issues"
-  },
-  "homepage": "https://github.com/Granze/react-starterify",
+  "homepage": "https://github.com/smmbll/d3-react-components",
   "dependencies": {
+    "d3": "^4.1.1",
     "history": "^3.0.0",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",

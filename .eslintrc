@@ -1,5 +1,8 @@
 {
   "extends": "airbnb",
+  "globals" : {
+    "d3": true
+  },
   "rules": {
     "comma-dangle": [2, "never"]
   }

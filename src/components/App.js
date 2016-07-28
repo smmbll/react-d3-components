@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router';
-import { version } from '../../package.json';
+// import { version } from '../../package.json'
 
 const App = ({ children }) => (
   <div>
     <header>
-      <h1>React Starterify {version}</h1>
-      <Link to="/about">About</Link>
-      <Link to="/poweredby">Powered by</Link>
+      <h1><a href="/">React D3 Components</a></h1>
+      <Link to="/histogram">Histogram</Link>
+      <Link to="/visualizer">Visualizer</Link>
     </header>
     <section>
-      {children || 'Welcome to React Starterify'}
+      {children}
     </section>
   </div>
 );

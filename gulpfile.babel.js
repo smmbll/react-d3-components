@@ -99,7 +99,7 @@ gulp.task('styles', () => {
 
 gulp.task('htmlReplace', () => {
   gulp.src('index.html')
-  .pipe(htmlReplace({ css: 'styles/main.css', js: 'js/app.js' }))
+  .pipe(htmlReplace({ css: 'styles/app.css', js: 'js/app.js' }))
   .pipe(gulp.dest(paths.dist));
 });
 
