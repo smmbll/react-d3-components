@@ -1,6 +1,6 @@
 # React D3 Components
 
-A sandbox with examples of integrating D3 and React.
+A sandbox with examples of integrating D3 with React.
 
   npm install
   npm start
