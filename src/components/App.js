@@ -7,7 +7,7 @@ const App = ({ children }) => (
     <header>
       <h1><a href="/">React D3 Components</a></h1>
       <Link to="/histogram">Histogram</Link>
-      <Link to="/visualizer">Visualizer</Link>
+      <Link to="/matrix">Matrix</Link>
     </header>
     <section>
       {children}

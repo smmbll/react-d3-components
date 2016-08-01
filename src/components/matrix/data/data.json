@@ -1,0 +1,1387 @@
+[{
+  "name": "Amthor",
+  "cooccurences": [{
+    "name": "Amthor's secretary",
+    "frequency": 2
+  }, {
+    "name": "Chauffeur",
+    "frequency": 1
+  }, {
+    "name": "Cop on the sidewalk",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 3
+  }, {
+    "name": "Mr. Blane",
+    "frequency": 1
+  }, {
+    "name": "Second Planting",
+    "frequency": 2
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 1
+  }]
+}, {
+  "name": "Amthor's secretary",
+  "cooccurences": [{
+    "name": "Amthor",
+    "frequency": 2
+  }, {
+    "name": "Chauffeur",
+    "frequency": 1
+  }, {
+    "name": "Cop on the sidewalk",
+    "frequency": 1
+  }, {
+    "name": "Girl on sidewalk",
+    "frequency": 1
+  }, {
+    "name": "Lot Books contact",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 3
+  }, {
+    "name": "Mr. Blane",
+    "frequency": 1
+  }, {
+    "name": "Second Planting",
+    "frequency": 1
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 1
+  }]
+}, {
+  "name": "Anne Riordan",
+  "cooccurences": [{
+    "name": "Dark lad",
+    "frequency": 1
+  }, {
+    "name": "Dr. Sonderborg",
+    "frequency": 1
+  }, {
+    "name": "Grayles' footman",
+    "frequency": 1
+  }, {
+    "name": "Grayles' gardener",
+    "frequency": 1
+  }, {
+    "name": "Husky in plainclothes",
+    "frequency": 1
+  }, {
+    "name": "Lindsay Marriot",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 8
+  }, {
+    "name": "Mr. Grayle",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Nulty",
+    "frequency": 1
+  }, {
+    "name": "Panel truck driver",
+    "frequency": 1
+  }]
+}, {
+  "name": "Baltimore detective",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Randall",
+    "frequency": 1
+  }]
+}, {
+  "name": "Brunette",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mess-jacket",
+    "frequency": 1
+  }, {
+    "name": "Olson",
+    "frequency": 1
+  }, {
+    "name": "Red",
+    "frequency": 1
+  }, {
+    "name": "Slim",
+    "frequency": 1
+  }, {
+    "name": "Torpedo",
+    "frequency": 1
+  }]
+}, {
+  "name": "Chauffeur",
+  "cooccurences": [{
+    "name": "Amthor",
+    "frequency": 1
+  }, {
+    "name": "Amthor's secretary",
+    "frequency": 1
+  }, {
+    "name": "Cop on the sidewalk",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Second Planting",
+    "frequency": 1
+  }]
+}, {
+  "name": "Cop on the sidewalk",
+  "cooccurences": [{
+    "name": "Amthor",
+    "frequency": 1
+  }, {
+    "name": "Amthor's secretary",
+    "frequency": 1
+  }, {
+    "name": "Chauffeur",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Second Planting",
+    "frequency": 1
+  }]
+}, {
+  "name": "Dark lad",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Grayles' footman",
+    "frequency": 1
+  }, {
+    "name": "Grayles' gardener",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mr. Grayle",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }]
+}, {
+  "name": "Dr. Sonderborg",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }]
+}, {
+  "name": "Florian's barman",
+  "cooccurences": [{
+    "name": "Florian's bouncer",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 1
+  }, {
+    "name": "Mr. Montgomery",
+    "frequency": 1
+  }]
+}, {
+  "name": "Florian's bouncer",
+  "cooccurences": [{
+    "name": "Florian's barman",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 1
+  }, {
+    "name": "Mr. Montgomery",
+    "frequency": 1
+  }]
+}, {
+  "name": "Florian's patron",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Aleidis",
+    "frequency": 1
+  }]
+}, {
+  "name": "Fluffy blonde",
+  "cooccurences": [{
+    "name": "Man in yachting cap",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Orderly",
+    "frequency": 1
+  }, {
+    "name": "Thing man",
+    "frequency": 1
+  }]
+}, {
+  "name": "Girl on sidewalk",
+  "cooccurences": [{
+    "name": "Amthor's secretary",
+    "frequency": 1
+  }, {
+    "name": "Lot Books contact",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }]
+}, {
+  "name": "Grayles' footman",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Dark lad",
+    "frequency": 1
+  }, {
+    "name": "Grayles' gardener",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mr. Grayle",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }]
+}, {
+  "name": "Grayles' gardener",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Dark lad",
+    "frequency": 1
+  }, {
+    "name": "Grayles' footman",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mr. Grayle",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }]
+}, {
+  "name": "Grayles' maid",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Randall",
+    "frequency": 1
+  }]
+}, {
+  "name": "Hot dog man",
+  "cooccurences": [{
+    "name": "Male cutie",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Tough waiter",
+    "frequency": 1
+  }, {
+    "name": "Young couple",
+    "frequency": 1
+  }]
+}, {
+  "name": "Husky in plainclothes",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Panel truck driver",
+    "frequency": 1
+  }]
+}, {
+  "name": "John Wax",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Plainclothesman",
+    "frequency": 1
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 1
+  }, {
+    "name": "Sleeping officer",
+    "frequency": 1
+  }, {
+    "name": "Uniformed man at typewriter",
+    "frequency": 1
+  }]
+}, {
+  "name": "Lindsay Marriot",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 4
+  }, {
+    "name": "Montemar cafe patron",
+    "frequency": 1
+  }, {
+    "name": "Nulty",
+    "frequency": 1
+  }, {
+    "name": "Whoever knocked marlowe out",
+    "frequency": 1
+  }]
+}, {
+  "name": "Lot Books contact",
+  "cooccurences": [{
+    "name": "Amthor's secretary",
+    "frequency": 1
+  }, {
+    "name": "Girl on sidewalk",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }]
+}, {
+  "name": "Mailman",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Florian",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Morrison",
+    "frequency": 1
+  }, {
+    "name": "Randall",
+    "frequency": 1
+  }]
+}, {
+  "name": "Male cutie",
+  "cooccurences": [{
+    "name": "Hot dog man",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Tough waiter",
+    "frequency": 1
+  }, {
+    "name": "Young couple",
+    "frequency": 1
+  }]
+}, {
+  "name": "Man in yachting cap",
+  "cooccurences": [{
+    "name": "Fluffy blonde",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Orderly",
+    "frequency": 1
+  }, {
+    "name": "Thing man",
+    "frequency": 1
+  }]
+}, {
+  "name": "Marlowe",
+  "cooccurences": [{
+    "name": "Amthor",
+    "frequency": 3
+  }, {
+    "name": "Amthor's secretary",
+    "frequency": 3
+  }, {
+    "name": "Anne Riordan",
+    "frequency": 8
+  }, {
+    "name": "Baltimore detective",
+    "frequency": 1
+  }, {
+    "name": "Brunette",
+    "frequency": 1
+  }, {
+    "name": "Chauffeur",
+    "frequency": 1
+  }, {
+    "name": "Cop on the sidewalk",
+    "frequency": 1
+  }, {
+    "name": "Dark lad",
+    "frequency": 1
+  }, {
+    "name": "Dr. Sonderborg",
+    "frequency": 1
+  }, {
+    "name": "Florian's barman",
+    "frequency": 1
+  }, {
+    "name": "Florian's bouncer",
+    "frequency": 1
+  }, {
+    "name": "Florian's patron",
+    "frequency": 1
+  }, {
+    "name": "Fluffy blonde",
+    "frequency": 1
+  }, {
+    "name": "Girl on sidewalk",
+    "frequency": 1
+  }, {
+    "name": "Grayles' footman",
+    "frequency": 1
+  }, {
+    "name": "Grayles' gardener",
+    "frequency": 1
+  }, {
+    "name": "Grayles' maid",
+    "frequency": 1
+  }, {
+    "name": "Hot dog man",
+    "frequency": 1
+  }, {
+    "name": "Husky in plainclothes",
+    "frequency": 1
+  }, {
+    "name": "John Wax",
+    "frequency": 1
+  }, {
+    "name": "Lindsay Marriot",
+    "frequency": 4
+  }, {
+    "name": "Lot Books contact",
+    "frequency": 1
+  }, {
+    "name": "Mailman",
+    "frequency": 1
+  }, {
+    "name": "Male cutie",
+    "frequency": 1
+  }, {
+    "name": "Man in yachting cap",
+    "frequency": 1
+  }, {
+    "name": "Mess-jacket",
+    "frequency": 2
+  }, {
+    "name": "Montemar cafe patron",
+    "frequency": 1
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 4
+  }, {
+    "name": "Mr. Blane",
+    "frequency": 2
+  }, {
+    "name": "Mr. Grayle",
+    "frequency": 1
+  }, {
+    "name": "Mr. Montgomery",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Aleidis",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Florian",
+    "frequency": 3
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 4
+  }, {
+    "name": "Mrs. Morrison",
+    "frequency": 3
+  }, {
+    "name": "Nameless detective",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 4
+  }, {
+    "name": "Nulty",
+    "frequency": 5
+  }, {
+    "name": "Olson",
+    "frequency": 2
+  }, {
+    "name": "Orderly",
+    "frequency": 2
+  }, {
+    "name": "Panel truck driver",
+    "frequency": 1
+  }, {
+    "name": "Plainclothesman",
+    "frequency": 1
+  }, {
+    "name": "Randall",
+    "frequency": 7
+  }, {
+    "name": "Red",
+    "frequency": 4
+  }, {
+    "name": "Sans Souci receptionist",
+    "frequency": 1
+  }, {
+    "name": "Second Planting",
+    "frequency": 3
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 4
+  }, {
+    "name": "Shorty",
+    "frequency": 1
+  }, {
+    "name": "Sleeping officer",
+    "frequency": 1
+  }, {
+    "name": "Slim",
+    "frequency": 1
+  }, {
+    "name": "Swearing couple",
+    "frequency": 1
+  }, {
+    "name": "Taximan",
+    "frequency": 1
+  }, {
+    "name": "Thing man",
+    "frequency": 1
+  }, {
+    "name": "Three couples",
+    "frequency": 1
+  }, {
+    "name": "Torpedo",
+    "frequency": 1
+  }, {
+    "name": "Tough waiter",
+    "frequency": 1
+  }, {
+    "name": "Two policeman",
+    "frequency": 1
+  }, {
+    "name": "Uniformed lieutenant",
+    "frequency": 1
+  }, {
+    "name": "Uniformed man at typewriter",
+    "frequency": 1
+  }, {
+    "name": "Whoever knocked marlowe out",
+    "frequency": 1
+  }, {
+    "name": "Young couple",
+    "frequency": 1
+  }]
+}, {
+  "name": "Mess-jacket",
+  "cooccurences": [{
+    "name": "Brunette",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 2
+  }, {
+    "name": "Olson",
+    "frequency": 2
+  }, {
+    "name": "Red",
+    "frequency": 2
+  }, {
+    "name": "Slim",
+    "frequency": 1
+  }, {
+    "name": "Taximan",
+    "frequency": 1
+  }, {
+    "name": "Three couples",
+    "frequency": 1
+  }, {
+    "name": "Torpedo",
+    "frequency": 1
+  }]
+}, {
+  "name": "Montemar cafe patron",
+  "cooccurences": [{
+    "name": "Lindsay Marriot",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }]
+}, {
+  "name": "Moose Malloy",
+  "cooccurences": [{
+    "name": "Florian's barman",
+    "frequency": 1
+  }, {
+    "name": "Florian's bouncer",
+    "frequency": 1
+  }, {
+    "name": "Florian's patron",
+    "frequency": 1
+  }, {
+    "name": "Grayles' maid",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 4
+  }, {
+    "name": "Mr. Montgomery",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Aleidis",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Orderly",
+    "frequency": 1
+  }, {
+    "name": "Randall",
+    "frequency": 1
+  }]
+}, {
+  "name": "Mr. Blane",
+  "cooccurences": [{
+    "name": "Amthor",
+    "frequency": 1
+  }, {
+    "name": "Amthor's secretary",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 2
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 2
+  }]
+}, {
+  "name": "Mr. Grayle",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Dark lad",
+    "frequency": 1
+  }, {
+    "name": "Grayles' footman",
+    "frequency": 1
+  }, {
+    "name": "Grayles' gardener",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }]
+}, {
+  "name": "Mr. Montgomery",
+  "cooccurences": [{
+    "name": "Florian's barman",
+    "frequency": 1
+  }, {
+    "name": "Florian's bouncer",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 1
+  }]
+}, {
+  "name": "Mrs. Aleidis",
+  "cooccurences": [{
+    "name": "Florian's patron",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 1
+  }]
+}, {
+  "name": "Mrs. Florian",
+  "cooccurences": [{
+    "name": "Mailman",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 3
+  }, {
+    "name": "Mrs. Morrison",
+    "frequency": 2
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Nulty",
+    "frequency": 1
+  }, {
+    "name": "Randall",
+    "frequency": 1
+  }, {
+    "name": "Uniformed lieutenant",
+    "frequency": 1
+  }]
+}, {
+  "name": "Mrs. Grayle (Velma)",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Baltimore detective",
+    "frequency": 1
+  }, {
+    "name": "Dark lad",
+    "frequency": 1
+  }, {
+    "name": "Grayles' footman",
+    "frequency": 1
+  }, {
+    "name": "Grayles' gardener",
+    "frequency": 1
+  }, {
+    "name": "Grayles' maid",
+    "frequency": 1
+  }, {
+    "name": "John Wax",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 4
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 1
+  }, {
+    "name": "Mr. Grayle",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 3
+  }, {
+    "name": "Plainclothesman",
+    "frequency": 1
+  }, {
+    "name": "Randall",
+    "frequency": 2
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 1
+  }, {
+    "name": "Sleeping officer",
+    "frequency": 1
+  }, {
+    "name": "Uniformed man at typewriter",
+    "frequency": 1
+  }]
+}, {
+  "name": "Mrs. Morrison",
+  "cooccurences": [{
+    "name": "Mailman",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 3
+  }, {
+    "name": "Mrs. Florian",
+    "frequency": 2
+  }, {
+    "name": "Randall",
+    "frequency": 1
+  }]
+}, {
+  "name": "Nameless detective",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Randall",
+    "frequency": 1
+  }]
+}, {
+  "name": "Newton",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Dark lad",
+    "frequency": 1
+  }, {
+    "name": "Grayles' footman",
+    "frequency": 1
+  }, {
+    "name": "Grayles' gardener",
+    "frequency": 1
+  }, {
+    "name": "Grayles' maid",
+    "frequency": 1
+  }, {
+    "name": "John Wax",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 4
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 1
+  }, {
+    "name": "Mr. Grayle",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Florian",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 3
+  }, {
+    "name": "Nulty",
+    "frequency": 1
+  }, {
+    "name": "Plainclothesman",
+    "frequency": 1
+  }, {
+    "name": "Randall",
+    "frequency": 1
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 1
+  }, {
+    "name": "Sleeping officer",
+    "frequency": 1
+  }, {
+    "name": "Uniformed lieutenant",
+    "frequency": 1
+  }, {
+    "name": "Uniformed man at typewriter",
+    "frequency": 1
+  }]
+}, {
+  "name": "Nulty",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Lindsay Marriot",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 5
+  }, {
+    "name": "Mrs. Florian",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Uniformed lieutenant",
+    "frequency": 1
+  }]
+}, {
+  "name": "Olson",
+  "cooccurences": [{
+    "name": "Brunette",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 2
+  }, {
+    "name": "Mess-jacket",
+    "frequency": 2
+  }, {
+    "name": "Red",
+    "frequency": 2
+  }, {
+    "name": "Slim",
+    "frequency": 1
+  }, {
+    "name": "Taximan",
+    "frequency": 1
+  }, {
+    "name": "Three couples",
+    "frequency": 1
+  }, {
+    "name": "Torpedo",
+    "frequency": 1
+  }]
+}, {
+  "name": "Orderly",
+  "cooccurences": [{
+    "name": "Fluffy blonde",
+    "frequency": 1
+  }, {
+    "name": "Man in yachting cap",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 2
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 1
+  }, {
+    "name": "Thing man",
+    "frequency": 1
+  }]
+}, {
+  "name": "Panel truck driver",
+  "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Husky in plainclothes",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }]
+}, {
+  "name": "Plainclothesman",
+  "cooccurences": [{
+    "name": "John Wax",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 1
+  }, {
+    "name": "Sleeping officer",
+    "frequency": 1
+  }, {
+    "name": "Uniformed man at typewriter",
+    "frequency": 1
+  }]
+}, {
+  "name": "Randall",
+  "cooccurences": [{
+    "name": "Baltimore detective",
+    "frequency": 1
+  }, {
+    "name": "Grayles' maid",
+    "frequency": 1
+  }, {
+    "name": "Mailman",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 7
+  }, {
+    "name": "Moose Malloy",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Florian",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 2
+  }, {
+    "name": "Mrs. Morrison",
+    "frequency": 1
+  }, {
+    "name": "Nameless detective",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }]
+}, {
+  "name": "Red",
+  "cooccurences": [{
+    "name": "Brunette",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 4
+  }, {
+    "name": "Mess-jacket",
+    "frequency": 2
+  }, {
+    "name": "Olson",
+    "frequency": 2
+  }, {
+    "name": "Shorty",
+    "frequency": 1
+  }, {
+    "name": "Slim",
+    "frequency": 1
+  }, {
+    "name": "Swearing couple",
+    "frequency": 1
+  }, {
+    "name": "Taximan",
+    "frequency": 1
+  }, {
+    "name": "Three couples",
+    "frequency": 1
+  }, {
+    "name": "Torpedo",
+    "frequency": 1
+  }]
+}, {
+  "name": "Sans Souci receptionist",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }]
+}, {
+  "name": "Second Planting",
+  "cooccurences": [{
+    "name": "Amthor",
+    "frequency": 2
+  }, {
+    "name": "Amthor's secretary",
+    "frequency": 1
+  }, {
+    "name": "Chauffeur",
+    "frequency": 1
+  }, {
+    "name": "Cop on the sidewalk",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 3
+  }]
+}, {
+  "name": "Sergeant Galbraith",
+  "cooccurences": [{
+    "name": "Amthor",
+    "frequency": 1
+  }, {
+    "name": "Amthor's secretary",
+    "frequency": 1
+  }, {
+    "name": "John Wax",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 4
+  }, {
+    "name": "Mr. Blane",
+    "frequency": 2
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Plainclothesman",
+    "frequency": 1
+  }, {
+    "name": "Sleeping officer",
+    "frequency": 1
+  }, {
+    "name": "Two policeman",
+    "frequency": 1
+  }, {
+    "name": "Uniformed man at typewriter",
+    "frequency": 1
+  }]
+}, {
+  "name": "Shorty",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Red",
+    "frequency": 1
+  }]
+}, {
+  "name": "Sleeping officer",
+  "cooccurences": [{
+    "name": "John Wax",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Plainclothesman",
+    "frequency": 1
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 1
+  }, {
+    "name": "Uniformed man at typewriter",
+    "frequency": 1
+  }]
+}, {
+  "name": "Slim",
+  "cooccurences": [{
+    "name": "Brunette",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mess-jacket",
+    "frequency": 1
+  }, {
+    "name": "Olson",
+    "frequency": 1
+  }, {
+    "name": "Red",
+    "frequency": 1
+  }, {
+    "name": "Torpedo",
+    "frequency": 1
+  }]
+}, {
+  "name": "Swearing couple",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Red",
+    "frequency": 1
+  }]
+}, {
+  "name": "Taximan",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mess-jacket",
+    "frequency": 1
+  }, {
+    "name": "Olson",
+    "frequency": 1
+  }, {
+    "name": "Red",
+    "frequency": 1
+  }, {
+    "name": "Three couples",
+    "frequency": 1
+  }]
+}, {
+  "name": "Thing man",
+  "cooccurences": [{
+    "name": "Fluffy blonde",
+    "frequency": 1
+  }, {
+    "name": "Man in yachting cap",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Orderly",
+    "frequency": 1
+  }]
+}, {
+  "name": "Three couples",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mess-jacket",
+    "frequency": 1
+  }, {
+    "name": "Olson",
+    "frequency": 1
+  }, {
+    "name": "Red",
+    "frequency": 1
+  }, {
+    "name": "Taximan",
+    "frequency": 1
+  }]
+}, {
+  "name": "Torpedo",
+  "cooccurences": [{
+    "name": "Brunette",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mess-jacket",
+    "frequency": 1
+  }, {
+    "name": "Olson",
+    "frequency": 1
+  }, {
+    "name": "Red",
+    "frequency": 1
+  }, {
+    "name": "Slim",
+    "frequency": 1
+  }]
+}, {
+  "name": "Tough waiter",
+  "cooccurences": [{
+    "name": "Hot dog man",
+    "frequency": 1
+  }, {
+    "name": "Male cutie",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Young couple",
+    "frequency": 1
+  }]
+}, {
+  "name": "Two policeman",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 1
+  }]
+}, {
+  "name": "Uniformed lieutenant",
+  "cooccurences": [{
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Florian",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Nulty",
+    "frequency": 1
+  }]
+}, {
+  "name": "Uniformed man at typewriter",
+  "cooccurences": [{
+    "name": "John Wax",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 1
+  }, {
+    "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Plainclothesman",
+    "frequency": 1
+  }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 1
+  }, {
+    "name": "Sleeping officer",
+    "frequency": 1
+  }]
+}, {
+  "name": "Whoever knocked marlowe out",
+  "cooccurences": [{
+    "name": "Lindsay Marriot",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }]
+}, {
+  "name": "Young couple",
+  "cooccurences": [{
+    "name": "Hot dog man",
+    "frequency": 1
+  }, {
+    "name": "Male cutie",
+    "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Tough waiter",
+    "frequency": 1
+  }]
+}]
