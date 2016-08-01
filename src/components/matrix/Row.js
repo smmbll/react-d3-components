@@ -6,9 +6,13 @@ const Row = (row) => {
   let index = row.index;
   let cooccurences = row.cooccurences;
   let transform = `translate(0,${index * constants.rowHeight})`;
+  let textClasses = 'caption';
+
+  textClasses += row.highlight ? ' highlight' : '';
 
   cells.forEach(function(cell) {
     cell.row = index;
+    cell.onHover = row.onHover;
 
     cooccurences.forEach(function(cooccurence) {
       if(cell.name === cooccurence.name) {
@@ -20,7 +24,7 @@ const Row = (row) => {
   return (
     <g key = {'row-' + index} className="row" transform={transform}>
       <line x2={row.length}></line>
-      <text className="caption left" transform="translate(-5,8)" textAnchor="end">{row.name}</text>
+      <text className={textClasses} transform="translate(-5,8)" textAnchor="end">{row.name}</text>
       {cells.length ? cells.map(Cell) : null}
     </g>
   )

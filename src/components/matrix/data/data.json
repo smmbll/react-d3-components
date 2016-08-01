@@ -1,6 +1,9 @@
 [{
   "name": "Amthor",
   "cooccurences": [{
+    "name": "Amthor",
+    "frequency": 3
+  }, {
     "name": "Amthor's secretary",
     "frequency": 2
   }, {
@@ -27,6 +30,9 @@
   "cooccurences": [{
     "name": "Amthor",
     "frequency": 2
+  }, {
+    "name": "Amthor's secretary",
+    "frequency": 3
   }, {
     "name": "Chauffeur",
     "frequency": 1
@@ -55,6 +61,9 @@
 }, {
   "name": "Anne Riordan",
   "cooccurences": [{
+    "name": "Anne Riordan",
+    "frequency": 8
+  }, {
     "name": "Dark lad",
     "frequency": 1
   }, {
@@ -94,6 +103,9 @@
 }, {
   "name": "Baltimore detective",
   "cooccurences": [{
+    "name": "Baltimore detective",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -106,6 +118,9 @@
 }, {
   "name": "Brunette",
   "cooccurences": [{
+    "name": "Brunette",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -133,6 +148,9 @@
     "name": "Amthor's secretary",
     "frequency": 1
   }, {
+    "name": "Chauffeur",
+    "frequency": 1
+  }, {
     "name": "Cop on the sidewalk",
     "frequency": 1
   }, {
@@ -154,6 +172,9 @@
     "name": "Chauffeur",
     "frequency": 1
   }, {
+    "name": "Cop on the sidewalk",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -164,6 +185,9 @@
   "name": "Dark lad",
   "cooccurences": [{
     "name": "Anne Riordan",
+    "frequency": 1
+  }, {
+    "name": "Dark lad",
     "frequency": 1
   }, {
     "name": "Grayles' footman",
@@ -190,12 +214,18 @@
     "name": "Anne Riordan",
     "frequency": 1
   }, {
+    "name": "Dr. Sonderborg",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }]
 }, {
   "name": "Florian's barman",
   "cooccurences": [{
+    "name": "Florian's barman",
+    "frequency": 1
+  }, {
     "name": "Florian's bouncer",
     "frequency": 1
   }, {
@@ -214,6 +244,9 @@
     "name": "Florian's barman",
     "frequency": 1
   }, {
+    "name": "Florian's bouncer",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -226,6 +259,9 @@
 }, {
   "name": "Florian's patron",
   "cooccurences": [{
+    "name": "Florian's patron",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -238,6 +274,9 @@
 }, {
   "name": "Fluffy blonde",
   "cooccurences": [{
+    "name": "Fluffy blonde",
+    "frequency": 1
+  }, {
     "name": "Man in yachting cap",
     "frequency": 1
   }, {
@@ -256,6 +295,9 @@
     "name": "Amthor's secretary",
     "frequency": 1
   }, {
+    "name": "Girl on sidewalk",
+    "frequency": 1
+  }, {
     "name": "Lot Books contact",
     "frequency": 1
   }, {
@@ -269,6 +311,9 @@
     "frequency": 1
   }, {
     "name": "Dark lad",
+    "frequency": 1
+  }, {
+    "name": "Grayles' footman",
     "frequency": 1
   }, {
     "name": "Grayles' gardener",
@@ -298,6 +343,9 @@
     "name": "Grayles' footman",
     "frequency": 1
   }, {
+    "name": "Grayles' gardener",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -313,6 +361,9 @@
 }, {
   "name": "Grayles' maid",
   "cooccurences": [{
+    "name": "Grayles' maid",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -331,6 +382,9 @@
 }, {
   "name": "Hot dog man",
   "cooccurences": [{
+    "name": "Hot dog man",
+    "frequency": 1
+  }, {
     "name": "Male cutie",
     "frequency": 1
   }, {
@@ -349,6 +403,9 @@
     "name": "Anne Riordan",
     "frequency": 1
   }, {
+    "name": "Husky in plainclothes",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -358,6 +415,9 @@
 }, {
   "name": "John Wax",
   "cooccurences": [{
+    "name": "John Wax",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -385,6 +445,9 @@
     "name": "Anne Riordan",
     "frequency": 1
   }, {
+    "name": "Lindsay Marriot",
+    "frequency": 4
+  }, {
     "name": "Marlowe",
     "frequency": 4
   }, {
@@ -406,12 +469,18 @@
     "name": "Girl on sidewalk",
     "frequency": 1
   }, {
+    "name": "Lot Books contact",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }]
 }, {
   "name": "Mailman",
   "cooccurences": [{
+    "name": "Mailman",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -430,6 +499,9 @@
     "name": "Hot dog man",
     "frequency": 1
   }, {
+    "name": "Male cutie",
+    "frequency": 1
+  }, {
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -443,6 +515,9 @@
   "name": "Man in yachting cap",
   "cooccurences": [{
     "name": "Fluffy blonde",
+    "frequency": 1
+  }, {
+    "name": "Man in yachting cap",
     "frequency": 1
   }, {
     "name": "Marlowe",
@@ -531,6 +606,9 @@
   }, {
     "name": "Man in yachting cap",
     "frequency": 1
+  }, {
+    "name": "Marlowe",
+    "frequency": 41
   }, {
     "name": "Mess-jacket",
     "frequency": 2
@@ -649,6 +727,9 @@
     "name": "Marlowe",
     "frequency": 2
   }, {
+    "name": "Mess-jacket",
+    "frequency": 2
+  }, {
     "name": "Olson",
     "frequency": 2
   }, {
@@ -675,6 +756,9 @@
   }, {
     "name": "Marlowe",
     "frequency": 1
+  }, {
+    "name": "Montemar cafe patron",
+    "frequency": 1
   }]
 }, {
   "name": "Moose Malloy",
@@ -692,6 +776,9 @@
     "frequency": 1
   }, {
     "name": "Marlowe",
+    "frequency": 4
+  }, {
+    "name": "Moose Malloy",
     "frequency": 4
   }, {
     "name": "Mr. Montgomery",
@@ -724,6 +811,9 @@
     "name": "Marlowe",
     "frequency": 2
   }, {
+    "name": "Mr. Blane",
+    "frequency": 2
+  }, {
     "name": "Sergeant Galbraith",
     "frequency": 2
   }]
@@ -743,6 +833,9 @@
     "frequency": 1
   }, {
     "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Mr. Grayle",
     "frequency": 1
   }, {
     "name": "Mrs. Grayle (Velma)",
@@ -765,6 +858,9 @@
   }, {
     "name": "Moose Malloy",
     "frequency": 1
+  }, {
+    "name": "Mr. Montgomery",
+    "frequency": 1
   }]
 }, {
   "name": "Mrs. Aleidis",
@@ -777,6 +873,9 @@
   }, {
     "name": "Moose Malloy",
     "frequency": 1
+  }, {
+    "name": "Mrs. Aleidis",
+    "frequency": 1
   }]
 }, {
   "name": "Mrs. Florian",
@@ -785,6 +884,9 @@
     "frequency": 1
   }, {
     "name": "Marlowe",
+    "frequency": 3
+  }, {
+    "name": "Mrs. Florian",
     "frequency": 3
   }, {
     "name": "Mrs. Morrison",
@@ -835,6 +937,9 @@
     "name": "Mr. Grayle",
     "frequency": 1
   }, {
+    "name": "Mrs. Grayle (Velma)",
+    "frequency": 4
+  }, {
     "name": "Newton",
     "frequency": 3
   }, {
@@ -865,6 +970,9 @@
     "name": "Mrs. Florian",
     "frequency": 2
   }, {
+    "name": "Mrs. Morrison",
+    "frequency": 3
+  }, {
     "name": "Randall",
     "frequency": 1
   }]
@@ -872,6 +980,9 @@
   "name": "Nameless detective",
   "cooccurences": [{
     "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Nameless detective",
     "frequency": 1
   }, {
     "name": "Randall",
@@ -913,6 +1024,9 @@
     "name": "Mrs. Grayle (Velma)",
     "frequency": 3
   }, {
+    "name": "Newton",
+    "frequency": 4
+  }, {
     "name": "Nulty",
     "frequency": 1
   }, {
@@ -952,6 +1066,9 @@
     "name": "Newton",
     "frequency": 1
   }, {
+    "name": "Nulty",
+    "frequency": 5
+  }, {
     "name": "Uniformed lieutenant",
     "frequency": 1
   }]
@@ -965,6 +1082,9 @@
     "frequency": 2
   }, {
     "name": "Mess-jacket",
+    "frequency": 2
+  }, {
+    "name": "Olson",
     "frequency": 2
   }, {
     "name": "Red",
@@ -997,6 +1117,9 @@
     "name": "Moose Malloy",
     "frequency": 1
   }, {
+    "name": "Orderly",
+    "frequency": 2
+  }, {
     "name": "Thing man",
     "frequency": 1
   }]
@@ -1010,6 +1133,9 @@
     "frequency": 1
   }, {
     "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Panel truck driver",
     "frequency": 1
   }]
 }, {
@@ -1025,6 +1151,9 @@
     "frequency": 1
   }, {
     "name": "Newton",
+    "frequency": 1
+  }, {
+    "name": "Plainclothesman",
     "frequency": 1
   }, {
     "name": "Sergeant Galbraith",
@@ -1068,6 +1197,9 @@
   }, {
     "name": "Newton",
     "frequency": 1
+  }, {
+    "name": "Randall",
+    "frequency": 7
   }]
 }, {
   "name": "Red",
@@ -1083,6 +1215,9 @@
   }, {
     "name": "Olson",
     "frequency": 2
+  }, {
+    "name": "Red",
+    "frequency": 4
   }, {
     "name": "Shorty",
     "frequency": 1
@@ -1107,6 +1242,9 @@
   "cooccurences": [{
     "name": "Marlowe",
     "frequency": 1
+  }, {
+    "name": "Sans Souci receptionist",
+    "frequency": 1
   }]
 }, {
   "name": "Second Planting",
@@ -1124,6 +1262,9 @@
     "frequency": 1
   }, {
     "name": "Marlowe",
+    "frequency": 3
+  }, {
+    "name": "Second Planting",
     "frequency": 3
   }]
 }, {
@@ -1153,6 +1294,9 @@
     "name": "Plainclothesman",
     "frequency": 1
   }, {
+    "name": "Sergeant Galbraith",
+    "frequency": 4
+  }, {
     "name": "Sleeping officer",
     "frequency": 1
   }, {
@@ -1169,6 +1313,9 @@
     "frequency": 1
   }, {
     "name": "Red",
+    "frequency": 1
+  }, {
+    "name": "Shorty",
     "frequency": 1
   }]
 }, {
@@ -1192,6 +1339,9 @@
     "name": "Sergeant Galbraith",
     "frequency": 1
   }, {
+    "name": "Sleeping officer",
+    "frequency": 1
+  }, {
     "name": "Uniformed man at typewriter",
     "frequency": 1
   }]
@@ -1213,6 +1363,9 @@
     "name": "Red",
     "frequency": 1
   }, {
+    "name": "Slim",
+    "frequency": 1
+  }, {
     "name": "Torpedo",
     "frequency": 1
   }]
@@ -1223,6 +1376,9 @@
     "frequency": 1
   }, {
     "name": "Red",
+    "frequency": 1
+  }, {
+    "name": "Swearing couple",
     "frequency": 1
   }]
 }, {
@@ -1238,6 +1394,9 @@
     "frequency": 1
   }, {
     "name": "Red",
+    "frequency": 1
+  }, {
+    "name": "Taximan",
     "frequency": 1
   }, {
     "name": "Three couples",
@@ -1257,6 +1416,9 @@
   }, {
     "name": "Orderly",
     "frequency": 1
+  }, {
+    "name": "Thing man",
+    "frequency": 1
   }]
 }, {
   "name": "Three couples",
@@ -1274,6 +1436,9 @@
     "frequency": 1
   }, {
     "name": "Taximan",
+    "frequency": 1
+  }, {
+    "name": "Three couples",
     "frequency": 1
   }]
 }, {
@@ -1296,6 +1461,9 @@
   }, {
     "name": "Slim",
     "frequency": 1
+  }, {
+    "name": "Torpedo",
+    "frequency": 1
   }]
 }, {
   "name": "Tough waiter",
@@ -1309,6 +1477,9 @@
     "name": "Marlowe",
     "frequency": 1
   }, {
+    "name": "Tough waiter",
+    "frequency": 1
+  }, {
     "name": "Young couple",
     "frequency": 1
   }]
@@ -1319,6 +1490,9 @@
     "frequency": 1
   }, {
     "name": "Sergeant Galbraith",
+    "frequency": 1
+  }, {
+    "name": "Two policeman",
     "frequency": 1
   }]
 }, {
@@ -1334,6 +1508,9 @@
     "frequency": 1
   }, {
     "name": "Nulty",
+    "frequency": 1
+  }, {
+    "name": "Uniformed lieutenant",
     "frequency": 1
   }]
 }, {
@@ -1359,6 +1536,9 @@
   }, {
     "name": "Sleeping officer",
     "frequency": 1
+  }, {
+    "name": "Uniformed man at typewriter",
+    "frequency": 1
   }]
 }, {
   "name": "Whoever knocked marlowe out",
@@ -1367,6 +1547,9 @@
     "frequency": 1
   }, {
     "name": "Marlowe",
+    "frequency": 1
+  }, {
+    "name": "Whoever knocked marlowe out",
     "frequency": 1
   }]
 }, {
@@ -1382,6 +1565,9 @@
     "frequency": 1
   }, {
     "name": "Tough waiter",
+    "frequency": 1
+  }, {
+    "name": "Young couple",
     "frequency": 1
   }]
 }]

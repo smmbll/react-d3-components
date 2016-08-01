@@ -2,9 +2,12 @@ import constants from './constants';
 
 const Cell = (cell,j) => {
   let cellColor = {};
+  let row = cell.row;
+  let cellClass = 'cell';
 
   if(cell.color) {
     cellColor.fill = cell.color;
+    cellClass += ' filled';
   } else {
     cellColor['fillOpacity'] = 0;
   }
@@ -12,12 +15,14 @@ const Cell = (cell,j) => {
   return (
       <rect
         style={cellColor}
-        className="cell"
+        className={cellClass}
         x={j * constants.rowHeight}
         y="0"
         width={constants.cellSide}
         height={constants.cellSide}
-        key={'cell-' + cell.row + j}
+        key={'cell-' + row + j}
+        onMouseEnter={cell.color ? cell.onHover.bind(null,row,j) : null}
+        onMouseLeave={cell.onHover.bind(null,null,null)}
       >
       </rect>
   );

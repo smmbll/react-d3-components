@@ -14,5 +14,5 @@ render(
       <Route path="matrix" component={Matrix} />
     </Route>
     <Redirect from="/" to="histogram" />
-  </Router>), document.getElementById('view')
+  </Router>), document.getElementById('app')
 );

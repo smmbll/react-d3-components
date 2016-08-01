@@ -66,25 +66,14 @@ section {
   line {
     stroke: #fff;
   }
-}
-.captions {
-  margin-left:100px;
-}
 
-.row {
-  margin-bottom:1px;
-  display:block;
+  .row, .column {
+    .caption {
+      font-size: 10px;
 
-  .caption {
-    font-size:10px;
-    display:inline-block;
-
-    &.top {
-      text-align:left;
-    }
-
-    &.left {
-      text-align:right;
+      &.highlight {
+        fill: rgb(236, 32, 32);
+      }
     }
   }
 }
