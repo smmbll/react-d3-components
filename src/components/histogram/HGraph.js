@@ -1,11 +1,8 @@
-const d3 = require('d3');
 import React from 'react';
+import * as d3 from 'd3';
 import Histogram from './Histogram';
 import MarkdownReader from '../markdown/MarkdownReader';
-
-// import d3 from 'd3';
-
-// import Histogram from './Histogram';
+import constants from './constants';
 
 class HistogramGraph extends React.Component {
   constructor(props) {
@@ -13,6 +10,21 @@ class HistogramGraph extends React.Component {
     this.state = {
       data: d3.range(1000).map(d3.randomBates(10))
     };
+  }
+  componentWillMount() {
+    fetch(constants.readme)
+      .then((res) => {
+        if(res.ok) {
+          res.text().then((readme) => {
+            this.setState({readme: readme});
+          });
+        } else {
+          console.log('Response not okay.');
+        }
+      })
+      .catch((err) => {
+        console.log('Fetch unsuccessful with error ' + err.message);
+      });
   }
   render() {
     const params = {

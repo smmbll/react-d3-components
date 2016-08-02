@@ -1,8 +1,8 @@
 import React from 'react';
+import * as d3 from 'd3';
 import Row from './Row';
 import Column from './Column';
 import constants from './constants';
-const d3 = require('d3');
 
 class Matrix extends React.Component {
   constructor() {
@@ -27,7 +27,7 @@ class Matrix extends React.Component {
       if(rows && typeof rows === 'object' && rows.forEach) {
         let columns = [];
         let innerDimension = rows.length * constants.rowHeight;
-        let outerDimension = innerDimension + constants.labelMargin;
+        let outerDimension = innerDimension + constants.margin.left;
 
         rows.forEach(function(row,i) {
           row.colorScheme = self.colorScheme;
@@ -77,10 +77,11 @@ class Matrix extends React.Component {
   }
   render() {
     let rows = this.state.rows;
+    let translate = `translate(${constants.margin.left},${constants.margin.top})`
 
     return (
       <svg className="matrix" width={this.state.outerDimension} height={this.state.outerDimension}>
-        <g transform="translate(150,100)">
+        <g transform={translate}>
           <rect className="background" fill="#eee" width={this.state.innerDimension} height={this.state.innerDimension}></rect>
           {rows.length ? rows.map(this.renderColumn) : null}
           {rows.length ? rows.map(this.renderRow) : null}
