@@ -1,6 +1,7 @@
 const d3 = require('d3');
 import React from 'react';
 import Histogram from './Histogram';
+import MarkdownReader from '../markdown/MarkdownReader';
 
 // import d3 from 'd3';
 
@@ -37,6 +38,7 @@ class HistogramGraph extends React.Component {
         <svg width={params.width.outer} height={params.height.outer}>
           <Histogram {...params} data={this.state.data} />
         </svg>
+        <MarkdownReader url={'src/components/histogram/docs/histogram.md'} />
       </div>
     );
 

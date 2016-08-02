@@ -59,9 +59,15 @@ class Matrix extends React.Component {
     return <Column {...column} />;
   }
   onCellHover(i,j) {
-    let highlight = [];
-    
-    if(typeof i === 'number' && typeof j === 'number') {
+    let highlight = this.state.highlight;
+    let currentRow = highlight[0];
+    let currentColumn = highlight[1];
+
+    if(currentRow === i) {
+      highlight[1] = j;
+    } else if(currentColumn === j) {
+      highlight[0] = i;
+    } else if(currentRow !== i && currentColumn !== j) {
       highlight = [i,j];
     } else {
       highlight = [null,null];

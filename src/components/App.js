@@ -10,7 +10,7 @@ const App = ({ children }) => {
         <Link to="/matrix">Matrix</Link>
       </header>
       <section>
-        {children || 'Sample components built using React and D3.'}
+        {children}
       </section>
     </div>
   );

@@ -4,7 +4,7 @@ import Cell from './Cell';
 const Row = (row) => {
   let cells = row.cells;
   let index = row.index;
-  let cooccurences = row.cooccurences;
+  let cooccurrences = row.cooccurrences;
   let transform = `translate(0,${index * constants.rowHeight})`;
   let textClasses = 'caption';
 
@@ -14,9 +14,9 @@ const Row = (row) => {
     cell.row = index;
     cell.onHover = row.onHover;
 
-    cooccurences.forEach(function(cooccurence) {
-      if(cell.name === cooccurence.name) {
-        cell.color = row.colorScheme(cooccurence.frequency);
+    cooccurrences.forEach(function(cooccurrence) {
+      if(cell.name === cooccurrence.name) {
+        cell.color = row.colorScheme(cooccurrence.frequency);
       }
     });
   });

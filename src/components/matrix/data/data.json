@@ -1,6 +1,6 @@
 [{
   "name": "Amthor",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Amthor",
     "frequency": 3
   }, {
@@ -27,7 +27,7 @@
   }]
 }, {
   "name": "Amthor's secretary",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Amthor",
     "frequency": 2
   }, {
@@ -60,7 +60,7 @@
   }]
 }, {
   "name": "Anne Riordan",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 8
   }, {
@@ -102,7 +102,7 @@
   }]
 }, {
   "name": "Baltimore detective",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Baltimore detective",
     "frequency": 1
   }, {
@@ -117,7 +117,7 @@
   }]
 }, {
   "name": "Brunette",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Brunette",
     "frequency": 1
   }, {
@@ -141,7 +141,7 @@
   }]
 }, {
   "name": "Chauffeur",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Amthor",
     "frequency": 1
   }, {
@@ -162,7 +162,7 @@
   }]
 }, {
   "name": "Cop on the sidewalk",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Amthor",
     "frequency": 1
   }, {
@@ -183,7 +183,7 @@
   }]
 }, {
   "name": "Dark lad",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -210,7 +210,7 @@
   }]
 }, {
   "name": "Dr. Sonderborg",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -222,7 +222,7 @@
   }]
 }, {
   "name": "Florian's barman",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Florian's barman",
     "frequency": 1
   }, {
@@ -240,7 +240,7 @@
   }]
 }, {
   "name": "Florian's bouncer",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Florian's barman",
     "frequency": 1
   }, {
@@ -258,7 +258,7 @@
   }]
 }, {
   "name": "Florian's patron",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Florian's patron",
     "frequency": 1
   }, {
@@ -273,7 +273,7 @@
   }]
 }, {
   "name": "Fluffy blonde",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Fluffy blonde",
     "frequency": 1
   }, {
@@ -291,7 +291,7 @@
   }]
 }, {
   "name": "Girl on sidewalk",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Amthor's secretary",
     "frequency": 1
   }, {
@@ -306,7 +306,7 @@
   }]
 }, {
   "name": "Grayles' footman",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -333,7 +333,7 @@
   }]
 }, {
   "name": "Grayles' gardener",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -360,7 +360,7 @@
   }]
 }, {
   "name": "Grayles' maid",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Grayles' maid",
     "frequency": 1
   }, {
@@ -381,7 +381,7 @@
   }]
 }, {
   "name": "Hot dog man",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Hot dog man",
     "frequency": 1
   }, {
@@ -399,7 +399,7 @@
   }]
 }, {
   "name": "Husky in plainclothes",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -414,7 +414,7 @@
   }]
 }, {
   "name": "John Wax",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "John Wax",
     "frequency": 1
   }, {
@@ -441,7 +441,7 @@
   }]
 }, {
   "name": "Lindsay Marriot",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -456,13 +456,10 @@
   }, {
     "name": "Nulty",
     "frequency": 1
-  }, {
-    "name": "Whoever knocked marlowe out",
-    "frequency": 1
   }]
 }, {
   "name": "Lot Books contact",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Amthor's secretary",
     "frequency": 1
   }, {
@@ -477,7 +474,7 @@
   }]
 }, {
   "name": "Mailman",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Mailman",
     "frequency": 1
   }, {
@@ -495,7 +492,7 @@
   }]
 }, {
   "name": "Male cutie",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Hot dog man",
     "frequency": 1
   }, {
@@ -513,7 +510,7 @@
   }]
 }, {
   "name": "Man in yachting cap",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Fluffy blonde",
     "frequency": 1
   }, {
@@ -531,7 +528,7 @@
   }]
 }, {
   "name": "Marlowe",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Amthor",
     "frequency": 3
   }, {
@@ -712,15 +709,12 @@
     "name": "Uniformed man at typewriter",
     "frequency": 1
   }, {
-    "name": "Whoever knocked marlowe out",
-    "frequency": 1
-  }, {
     "name": "Young couple",
     "frequency": 1
   }]
 }, {
   "name": "Mess-jacket",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Brunette",
     "frequency": 1
   }, {
@@ -750,7 +744,7 @@
   }]
 }, {
   "name": "Montemar cafe patron",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Lindsay Marriot",
     "frequency": 1
   }, {
@@ -762,7 +756,7 @@
   }]
 }, {
   "name": "Moose Malloy",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Florian's barman",
     "frequency": 1
   }, {
@@ -801,7 +795,7 @@
   }]
 }, {
   "name": "Mr. Blane",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Amthor",
     "frequency": 1
   }, {
@@ -819,7 +813,7 @@
   }]
 }, {
   "name": "Mr. Grayle",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -846,7 +840,7 @@
   }]
 }, {
   "name": "Mr. Montgomery",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Florian's barman",
     "frequency": 1
   }, {
@@ -864,7 +858,7 @@
   }]
 }, {
   "name": "Mrs. Aleidis",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Florian's patron",
     "frequency": 1
   }, {
@@ -879,7 +873,7 @@
   }]
 }, {
   "name": "Mrs. Florian",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Mailman",
     "frequency": 1
   }, {
@@ -906,7 +900,7 @@
   }]
 }, {
   "name": "Mrs. Grayle (Velma)",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -960,7 +954,7 @@
   }]
 }, {
   "name": "Mrs. Morrison",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Mailman",
     "frequency": 1
   }, {
@@ -978,7 +972,7 @@
   }]
 }, {
   "name": "Nameless detective",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -990,7 +984,7 @@
   }]
 }, {
   "name": "Newton",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -1050,7 +1044,7 @@
   }]
 }, {
   "name": "Nulty",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -1074,7 +1068,7 @@
   }]
 }, {
   "name": "Olson",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Brunette",
     "frequency": 1
   }, {
@@ -1104,7 +1098,7 @@
   }]
 }, {
   "name": "Orderly",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Fluffy blonde",
     "frequency": 1
   }, {
@@ -1125,7 +1119,7 @@
   }]
 }, {
   "name": "Panel truck driver",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Anne Riordan",
     "frequency": 1
   }, {
@@ -1140,7 +1134,7 @@
   }]
 }, {
   "name": "Plainclothesman",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "John Wax",
     "frequency": 1
   }, {
@@ -1167,7 +1161,7 @@
   }]
 }, {
   "name": "Randall",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Baltimore detective",
     "frequency": 1
   }, {
@@ -1203,7 +1197,7 @@
   }]
 }, {
   "name": "Red",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Brunette",
     "frequency": 1
   }, {
@@ -1239,7 +1233,7 @@
   }]
 }, {
   "name": "Sans Souci receptionist",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -1248,7 +1242,7 @@
   }]
 }, {
   "name": "Second Planting",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Amthor",
     "frequency": 2
   }, {
@@ -1269,7 +1263,7 @@
   }]
 }, {
   "name": "Sergeant Galbraith",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Amthor",
     "frequency": 1
   }, {
@@ -1308,7 +1302,7 @@
   }]
 }, {
   "name": "Shorty",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -1320,7 +1314,7 @@
   }]
 }, {
   "name": "Sleeping officer",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "John Wax",
     "frequency": 1
   }, {
@@ -1347,7 +1341,7 @@
   }]
 }, {
   "name": "Slim",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Brunette",
     "frequency": 1
   }, {
@@ -1371,7 +1365,7 @@
   }]
 }, {
   "name": "Swearing couple",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -1383,7 +1377,7 @@
   }]
 }, {
   "name": "Taximan",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -1404,7 +1398,7 @@
   }]
 }, {
   "name": "Thing man",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Fluffy blonde",
     "frequency": 1
   }, {
@@ -1422,7 +1416,7 @@
   }]
 }, {
   "name": "Three couples",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -1443,7 +1437,7 @@
   }]
 }, {
   "name": "Torpedo",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Brunette",
     "frequency": 1
   }, {
@@ -1467,7 +1461,7 @@
   }]
 }, {
   "name": "Tough waiter",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Hot dog man",
     "frequency": 1
   }, {
@@ -1485,7 +1479,7 @@
   }]
 }, {
   "name": "Two policeman",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -1497,7 +1491,7 @@
   }]
 }, {
   "name": "Uniformed lieutenant",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Marlowe",
     "frequency": 1
   }, {
@@ -1515,7 +1509,7 @@
   }]
 }, {
   "name": "Uniformed man at typewriter",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "John Wax",
     "frequency": 1
   }, {
@@ -1541,20 +1535,8 @@
     "frequency": 1
   }]
 }, {
-  "name": "Whoever knocked marlowe out",
-  "cooccurences": [{
-    "name": "Lindsay Marriot",
-    "frequency": 1
-  }, {
-    "name": "Marlowe",
-    "frequency": 1
-  }, {
-    "name": "Whoever knocked marlowe out",
-    "frequency": 1
-  }]
-}, {
   "name": "Young couple",
-  "cooccurences": [{
+  "cooccurrences": [{
     "name": "Hot dog man",
     "frequency": 1
   }, {

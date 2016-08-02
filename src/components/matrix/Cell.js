@@ -22,7 +22,6 @@ const Cell = (cell,j) => {
         height={constants.cellSide}
         key={'cell-' + row + j}
         onMouseEnter={cell.color ? cell.onHover.bind(null,row,j) : null}
-        onMouseLeave={cell.onHover.bind(null,null,null)}
       >
       </rect>
   );
