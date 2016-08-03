@@ -2,6 +2,7 @@ import React from 'react';
 import * as d3 from 'd3';
 import Row from './Row';
 import Column from './Column';
+import NodeList from '../nodelist/NodeList';
 import constants from './constants';
 
 class Matrix extends React.Component {
@@ -10,9 +11,9 @@ class Matrix extends React.Component {
 
     this.state = {
       rows: [],
+      highlight: [],
       innerDimension: 0,
-      outerDimension: 0,
-      highlight: []
+      outerDimension: 0
     };
 
     this.colorScheme = d3.scaleOrdinal(d3.schemeCategory20c);
@@ -23,8 +24,15 @@ class Matrix extends React.Component {
   componentWillMount() {
     var self = this;
 
-    d3.json('src/components/matrix/data/data.json',function(rows) {
-      if(rows && typeof rows === 'object' && rows.forEach) {
+    d3.json('src/components/matrix/data/data.json',(chapters) => {
+      if(chapters && typeof chapters === 'object' && chapters.forEach) {
+        let nodes = NodeList(chapters);
+        let rows = [];
+
+        nodes.forEach(function(node) {
+          rows.push({ name: node.name, targets: node.targets });
+        });
+
         let columns = [];
         let innerDimension = rows.length * constants.rowHeight;
         let outerDimension = innerDimension + constants.margin.left;

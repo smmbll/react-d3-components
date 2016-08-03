@@ -5,7 +5,7 @@ const Row = (row) => {
   let cells = row.cells;
   let index = row.index;
   let length = row.length;
-  let cooccurrences = row.cooccurrences;
+  let targets = row.targets;
   let rowTransform = `translate(0,${index * constants.rowHeight})`;
   let classes = 'row';
 
@@ -15,9 +15,9 @@ const Row = (row) => {
     cell.row = index;
     cell.onHover = row.onHover;
 
-    cooccurrences.forEach(function(cooccurrence) {
-      if(cell.name === cooccurrence.name) {
-        cell.color = row.colorScheme(cooccurrence.frequency);
+    targets.forEach(function(target) {
+      if(cell.name === target.name) {
+        cell.color = row.colorScheme(target.frequency);
       }
     });
   });

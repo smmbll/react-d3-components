@@ -16,7 +16,7 @@ const App = ({ children }) => {
     <div>
       <header className="header">
         <h1><a href="/"><span>React</span> <span>+</span> <span>D3</span></a></h1>
-        <span className="author">{year} / <a href="mailto:lion@smmbll.com">lion summerbell</a></span>
+        <span className="author"><a href="mailto:lion@smmbll.com">lion summerbell</a> / {year}</span>
         {backButton}
       </header>
       <section className="content">
