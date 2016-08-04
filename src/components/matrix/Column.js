@@ -1,13 +1,13 @@
 import constants from './constants';
 
-const Column = (column) => {
-  let index = column.index;
-  let length = column.length;
+const Column = (props) => {
+  let index = props.index;
+  let height = props.height;
   let colTransform = `translate(${index * 11.5},0)rotate(-90)`;
-  let selTransform = `translate(${-length},0)`;
+  let selTransform = `translate(${-height},0)`;
   let classes = 'column';
 
-  classes += column.highlight ? ' highlight' : '';
+  classes += props.highlight ? ' highlight' : '';
 
   return (
     <g className={classes} transform={colTransform} key={'column-' + index}>
@@ -17,9 +17,9 @@ const Column = (column) => {
         x="6"
         y="9"
       >
-        {column.name}
+        {props.label}
       </text>
-      <line x1={-length} />
+      <line x1={-height} />
     </g>
   )
 }

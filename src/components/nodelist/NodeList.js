@@ -1,55 +1,42 @@
 import findInArray from '../../helpers/findInArray';
-import Node from './Node';
+import Link from './Link';
 
 const NodeList = (data) => {
-  let nodes = [];
-
   if(data && typeof data === 'object' && data.forEach) {
-    let added = [];
+    let list = {
+      nodes: [],
+      links: []
+    };
+    let nodes = list.nodes;
+    let links = list.links;
+    let added = {};
 
     data.forEach((group) => {
-      group.forEach((item) => {
-        // Check if the node is already in the list
-        let currentNode = findInArray(nodes,{ name: item });
-
-        // If not, add it
-        if(!currentNode) {
-          nodes.push(new Node(item));
-
-          currentNode = nodes[nodes.length - 1];
+      group.forEach((source) => {
+        // If not in array, add it
+        if(added[source] === undefined) {
+          nodes.push({ id: source, group: 0 });
+          added[source] = true;
         }
 
-        group.forEach((other) => {
-          let target = currentNode.getTarget({ name: other });
+        let sourceIndex = group.indexOf(source);
+        let targets = group.slice(0,sourceIndex).concat(group.slice(sourceIndex + 1));
 
-          if(target) {
-            currentNode.updateTarget({ frequency: ++target.frequency });
+        targets.forEach((target) => {
+          let link = findInArray(links,{ source: source, target: target },{ source: target, target: source });
+
+          if(link !== null) {
+            link.strength++;
           } else {
-            currentNode.addTarget(other);
+            links.push(Link(source,target));
           }
         });
       });
     });
 
-    nodes.forEach((node) => {
-      node.targets.sort((a,b) => {
-        var lowerA = a.name.toLowerCase();
-        var lowerB = b.name.toLowerCase();
-        var order = 0;
-
-        if(lowerA < lowerB) {
-          order = -1;
-        } else {
-          order = 1;
-        }
-
-        return order;
-      });
-    });
-
-    nodes.sort((a,b) => {
-      var lowerA = a.name.toLowerCase();
-      var lowerB = b.name.toLowerCase();
+    links.sort((a,b) => {
+      var lowerA = a.source.toLowerCase();
+      var lowerB = b.source.toLowerCase();
       var order = 0;
 
       if(lowerA < lowerB) {
@@ -61,11 +48,22 @@ const NodeList = (data) => {
       return order;
     });
 
-    console.log(JSON.stringify(nodes));
+    nodes.sort((a,b) => {
+      var lowerA = a.id.toLowerCase();
+      var lowerB = b.id.toLowerCase();
+      var order = 0;
 
+      if(lowerA < lowerB) {
+        order = -1;
+      } else {
+        order = 1;
+      }
+
+      return order;
+    });
+
+    return list;
   }
-
-  return nodes;
 }
 
 export default NodeList;

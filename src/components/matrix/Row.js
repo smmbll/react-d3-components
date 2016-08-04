@@ -1,31 +1,40 @@
+import * as d3 from 'd3';
 import constants from './constants';
 import Cell from './Cell';
 
-const Row = (row) => {
-  let cells = row.cells;
-  let index = row.index;
-  let length = row.length;
-  let targets = row.targets;
+const Row = (props) => {
+  let cells = props.cells;
+  let index = props.index;
+  let width = props.width;
   let rowTransform = `translate(0,${index * constants.rowHeight})`;
   let classes = 'row';
 
-  classes += row.highlight ? ' highlight' : '';
+  classes += props.highlight ? ' highlight' : '';
 
   cells.forEach(function(cell) {
-    cell.row = index;
-    cell.onHover = row.onHover;
+    let z = cell.z;
+    let opacity = 0;
 
-    targets.forEach(function(target) {
-      if(cell.name === target.name) {
-        cell.color = row.colorScheme(target.frequency);
-      }
-    });
+    if(z === 0) {
+      opacity = 0;
+    } else if(z > 0 && z < 3) {
+      opacity = 0.4;
+    } else if(z >= 3 && z < 5) {
+      opacity = 0.7;
+    } else {
+      opacity = 1;
+    }
+
+    cell.i = index;
+    cell.onHover = props.onHover;
+    cell.fill = d3.scaleOrdinal(d3.schemeCategory20b)(cell.group);
+    cell.opacity = opacity;
   });
 
   return (
     <g key = {'row-' + index} className={classes} transform={rowTransform}>
-      <line x2={length}></line>
-      <text className="label" transform="translate(-5,8)" textAnchor="end">{row.name}</text>
+      <line x2={width}></line>
+      <text className="label" transform="translate(-5,8)" textAnchor="end">{props.label}</text>
       {cells.length ? cells.map(Cell) : null}
     </g>
   )

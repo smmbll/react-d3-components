@@ -3,6 +3,8 @@ import * as d3 from 'd3';
 import Row from './Row';
 import Column from './Column';
 import NodeList from '../nodelist/NodeList';
+import findInArray from '../../helpers/findInArray';
+import isArray from '../../helpers/isArray';
 import constants from './constants';
 
 class Matrix extends React.Component {
@@ -10,7 +12,8 @@ class Matrix extends React.Component {
     super();
 
     this.state = {
-      rows: [],
+      list: {},
+      matrix: [],
       highlight: [],
       innerDimension: 0,
       outerDimension: 0
@@ -25,46 +28,73 @@ class Matrix extends React.Component {
     var self = this;
 
     d3.json('src/components/matrix/data/data.json',(chapters) => {
-      if(chapters && typeof chapters === 'object' && chapters.forEach) {
-        let nodes = NodeList(chapters);
-        let rows = [];
+      if(chapters && isArray(chapters)) {
+        let list = NodeList(chapters);
+        let nodes = list.nodes;
+        let links = list.links;
+        let listLength = nodes.length;
+        let matrix = [];
 
-        nodes.forEach(function(node) {
-          rows.push({ name: node.name, targets: node.targets });
-        });
+        for(var i=0;i < listLength;i++) {
+          matrix.push([]);
+          for(var j=0;j < listLength;j++) {
+            matrix[i].push({ z: 0, group: 0 });
+          }
+        }
 
-        let columns = [];
-        let innerDimension = rows.length * constants.rowHeight;
+        let innerDimension = nodes.length * constants.rowHeight;
         let outerDimension = innerDimension + constants.margin.left;
 
-        rows.forEach(function(row,i) {
-          row.colorScheme = self.colorScheme;
-          row.length = innerDimension;
-          row.index = i;
-        });
-
-        self.setState({ rows, innerDimension, outerDimension });
+        self.setState({ list, matrix, innerDimension, outerDimension });
       }
     });
   }
-  renderRow(row,i) {
-    // Add column heading data
-    row.cells = this.state.rows.map(row => ({ name: row.name }));
-    row.key = i;
-    row.highlight = this.state.highlight[0] === i;
-    row.onHover = this.onCellHover;
+  renderRow(cells,i) {
+    let props = {};
+    let list = this.state.list;
+    let nodes = list.nodes;
+    let rowNode = nodes[i];
+    let nodeId = rowNode.id;
+    let matches = findInArray(list.links,{ source: nodeId },{ target: nodeId });
 
-    return <Row {...row} />;
+    // Wrap it in an array in case we only get one result
+    matches = !isArray(matches) ? [matches] : matches;
+
+    cells.forEach((cell,j) => {
+      let currentNode = nodes[j];
+
+      if(rowNode !== currentNode) {
+        let match = findInArray(matches,{ source: currentNode.id },{ target: currentNode.id });
+
+        if(match) {
+          cell.z = match.strength;
+          cell.group = currentNode.group;
+        }
+      } else {
+        cell.z = matches.length;
+        cell.group = rowNode.group;
+      }
+    });
+
+    props.key = i;
+    props.index = i;
+    props.highlight = this.state.highlight[0] === i;
+    props.onHover = this.onCellHover;
+    props.cells = cells;
+    props.width = this.state.innerDimension;
+    props.label = nodes[i].id;
+
+    return <Row {...props} />;
   }
-  renderColumn(row,j) {
-    let column = {};
-    column.name = row.name;
-    column.length = row.length;
-    column.key = j;
-    column.highlight = this.state.highlight[1] === j;
-    column.index = row.index;
+  renderColumn(cell,j) {
+    let props = {};
+    props.label = this.state.list.nodes[j].id;
+    props.height = this.state.innerDimension;
+    props.key = j;
+    props.highlight = this.state.highlight[1] === j;
+    props.index = j;
 
-    return <Column {...column} />;
+    return <Column {...props} />;
   }
   onCellHover(i,j) {
     let highlight = this.state.highlight;
@@ -84,15 +114,15 @@ class Matrix extends React.Component {
     this.setState({ highlight });
   }
   render() {
-    let rows = this.state.rows;
+    let matrix = this.state.matrix;
     let translate = `translate(${constants.margin.left},${constants.margin.top})`
 
     return (
       <svg className="matrix" width={this.state.outerDimension} height={this.state.outerDimension}>
         <g transform={translate}>
           <rect className="background" fill="#eee" width={this.state.innerDimension} height={this.state.innerDimension}></rect>
-          {rows.length ? rows.map(this.renderColumn) : null}
-          {rows.length ? rows.map(this.renderRow) : null}
+          {matrix.length ? matrix[0].map(this.renderColumn) : null}
+          {matrix.length ? matrix.map(this.renderRow) : null}
         </g>
       </svg>
     );

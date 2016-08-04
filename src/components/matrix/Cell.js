@@ -1,27 +1,28 @@
 import constants from './constants';
 
 const Cell = (cell,j) => {
-  let cellColor = {};
-  let row = cell.row;
+  let style = {};
+  let i = cell.i;
   let cellClass = 'cell';
 
-  if(cell.color) {
-    cellColor.fill = cell.color;
+  if(cell.fill) {
+    style.fill = cell.fill;
     cellClass += ' filled';
+    style.fillOpacity = cell.opacity;
   } else {
-    cellColor['fillOpacity'] = 0;
+    style.fillOpacity = 0;
   }
 
   return (
       <rect
-        style={cellColor}
+        style={style}
         className={cellClass}
         x={j * constants.rowHeight}
         y="0"
         width={constants.cellSide}
         height={constants.cellSide}
-        key={'cell-' + row + j}
-        onMouseEnter={cell.color ? cell.onHover.bind(null,row,j) : null}
+        key={'cell-' + i + j}
+        onMouseEnter={cell.color ? cell.onHover.bind(null,i,j) : null}
       >
       </rect>
   );
