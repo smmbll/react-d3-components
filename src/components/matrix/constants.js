@@ -5,6 +5,7 @@ let constants = {
   margin: {
     top: 110,
     left: 150,
+    bottom: 30,
     right: 90
   },
   defaultFill: 'rgb(34, 34, 34)'

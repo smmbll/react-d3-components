@@ -16,8 +16,7 @@ class Matrix extends React.Component {
       nodes: [],
       links: [],
       highlight: [],
-      innerDimension: 0,
-      outerDimension: 0
+      innerDimension: 0
     };
 
     this.colorScheme = d3.scaleOrdinal(d3.schemeCategory20b);
@@ -35,9 +34,8 @@ class Matrix extends React.Component {
         let nodes = list.nodes;
         let links = list.links;
         let innerDimension = nodes.length * constants.rowHeight;
-        let outerDimension = innerDimension + constants.margin.left + constants.margin.right;
 
-        self.setState({ nodes, links, innerDimension, outerDimension }, () => {
+        self.setState({ nodes, links, innerDimension }, () => {
           // Sort alphabetically initially
           self.sortMatrix('id');
         });
@@ -122,7 +120,7 @@ class Matrix extends React.Component {
           <button type="button" className="btn btn-secondary active" onClick={this.sortMatrix.bind(null,'id')}>Alphabetical</button>
           <button type="button" className="btn btn-secondary" onClick={this.sortMatrix.bind(null,'group')}>Group</button>
         </div>
-        <svg className="matrix" width={this.state.outerDimension} height={this.state.outerDimension}>
+        <svg className="matrix" width={this.state.innerDimension + constants.margin.left + constants.margin.right} height={this.state.innerDimension + constants.margin.top + constants.margin.bottom}>
           <g transform={translate}>
             <rect className="background" fill="#eee" width={this.state.innerDimension} height={this.state.innerDimension}></rect>
             {nodes.length ? nodes.map(this.renderColumn) : null}
