@@ -23,14 +23,6 @@ function findInArray(arr) {
     }
   }
 
-  // If no elements are found, return null
-  if (result.length === 0) {
-    result = null;
-    // If only one element is found, return it rather than an array
-  } else if (result.length === 1) {
-    result = result[0];
-  }
-
   return result;
 }
 

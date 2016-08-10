@@ -6,74 +6,69 @@ import NodeList from '../nodelist/NodeList';
 import findInArray from '../../helpers/findInArray';
 import isArray from '../../helpers/isArray';
 import constants from './constants';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class Matrix extends React.Component {
   constructor() {
     super();
 
     this.state = {
-      list: {},
-      matrix: [],
+      nodes: [],
+      links: [],
       highlight: [],
       innerDimension: 0,
       outerDimension: 0
     };
 
-    this.colorScheme = d3.scaleOrdinal(d3.schemeCategory20c);
+    this.colorScheme = d3.scaleOrdinal(d3.schemeCategory20b);
     this.renderRow = this.renderRow.bind(this);
     this.renderColumn = this.renderColumn.bind(this);
     this.onCellHover = this.onCellHover.bind(this);
+    this.sortMatrix = this.sortMatrix.bind(this);
   }
   componentWillMount() {
     var self = this;
 
     d3.json('src/components/matrix/data/data.json',(chapters) => {
       if(chapters && isArray(chapters)) {
-        let list = NodeList(chapters);
+        let list = NodeList(chapters,true);
         let nodes = list.nodes;
         let links = list.links;
-        let listLength = nodes.length;
-        let matrix = [];
-
-        for(var i=0;i < listLength;i++) {
-          matrix.push([]);
-          for(var j=0;j < listLength;j++) {
-            matrix[i].push({ z: 0, group: 0 });
-          }
-        }
-
         let innerDimension = nodes.length * constants.rowHeight;
-        let outerDimension = innerDimension + constants.margin.left;
+        let outerDimension = innerDimension + constants.margin.left + constants.margin.right;
 
-        self.setState({ list, matrix, innerDimension, outerDimension });
+        self.setState({ nodes, links, innerDimension, outerDimension }, () => {
+          // Sort alphabetically initially
+          self.sortMatrix('id');
+        });
       }
     });
   }
-  renderRow(cells,i) {
+  renderRow(node,i) {
     let props = {};
-    let list = this.state.list;
-    let nodes = list.nodes;
-    let rowNode = nodes[i];
-    let nodeId = rowNode.id;
-    let matches = findInArray(list.links,{ source: nodeId },{ target: nodeId });
+    let nodeId = node.id;
+    let nodeGroup = node.group;
+    let nodeLinks = findInArray(this.state.links,{ source: nodeId },{ target: nodeId });
+    let cells = this.state.nodes.map((rowNode,j) => {
+      let rowNodeId = rowNode.id;
+      let rowNodeGroup = rowNode.group;
+      let cell = {};
 
-    // Wrap it in an array in case we only get one result
-    matches = !isArray(matches) ? [matches] : matches;
+      if(nodeId !== rowNodeId) {
+        let mutualLink = findInArray(nodeLinks,{ source: rowNodeId },{ target: rowNodeId });
 
-    cells.forEach((cell,j) => {
-      let currentNode = nodes[j];
-
-      if(rowNode !== currentNode) {
-        let match = findInArray(matches,{ source: currentNode.id },{ target: currentNode.id });
-
-        if(match) {
-          cell.z = match.strength;
-          cell.group = currentNode.group;
+        cell.z = 0;
+        cell.group = null;
+        if(mutualLink.length) {
+          cell.z = mutualLink[0].strength;
+          cell.group = rowNodeGroup === nodeGroup? rowNodeGroup : null;
         }
       } else {
-        cell.z = matches.length;
-        cell.group = rowNode.group;
+        cell.z = nodeLinks.length;
+        cell.group = nodeGroup;
       }
+
+      return cell;
     });
 
     props.key = i;
@@ -82,13 +77,14 @@ class Matrix extends React.Component {
     props.onHover = this.onCellHover;
     props.cells = cells;
     props.width = this.state.innerDimension;
-    props.label = nodes[i].id;
+    props.label = nodeId;
+    props.colorScheme = this.colorScheme;
 
     return <Row {...props} />;
   }
-  renderColumn(cell,j) {
+  renderColumn(node,j) {
     let props = {};
-    props.label = this.state.list.nodes[j].id;
+    props.label = node.id;
     props.height = this.state.innerDimension;
     props.key = j;
     props.highlight = this.state.highlight[1] === j;
@@ -101,30 +97,39 @@ class Matrix extends React.Component {
     let currentRow = highlight[0];
     let currentColumn = highlight[1];
 
-    if(currentRow === i) {
-      highlight[1] = j;
-    } else if(currentColumn === j) {
-      highlight[0] = i;
-    } else if(currentRow !== i && currentColumn !== j) {
-      highlight = [i,j];
-    } else {
-      highlight = [null,null];
-    }
+    this.setState({ highlight: [i,j] });
+  }
+  sortMatrix(key) {
+    let nodes = this.state.nodes;
 
-    this.setState({ highlight });
+    nodes.sort((a,b) => {
+      if(a[key] !== 'undefined' && b[key] !== 'undefined') {
+        return a[key] < b[key] ? -1 : 1;
+      } else {
+        return 0;
+      }
+    });
+
+    this.setState({nodes});
   }
   render() {
-    let matrix = this.state.matrix;
+    let nodes = this.state.nodes;
     let translate = `translate(${constants.margin.left},${constants.margin.top})`
 
     return (
-      <svg className="matrix" width={this.state.outerDimension} height={this.state.outerDimension}>
-        <g transform={translate}>
-          <rect className="background" fill="#eee" width={this.state.innerDimension} height={this.state.innerDimension}></rect>
-          {matrix.length ? matrix[0].map(this.renderColumn) : null}
-          {matrix.length ? matrix.map(this.renderRow) : null}
-        </g>
-      </svg>
+      <div className="matrix-container">
+        <div className="filter btn-group">
+          <button type="button" className="btn btn-secondary active" onClick={this.sortMatrix.bind(null,'id')}>Alphabetical</button>
+          <button type="button" className="btn btn-secondary" onClick={this.sortMatrix.bind(null,'group')}>Group</button>
+        </div>
+        <svg className="matrix" width={this.state.outerDimension} height={this.state.outerDimension}>
+          <g transform={translate}>
+            <rect className="background" fill="#eee" width={this.state.innerDimension} height={this.state.innerDimension}></rect>
+            {nodes.length ? nodes.map(this.renderColumn) : null}
+            {nodes.length ? nodes.map(this.renderRow) : null}
+          </g>
+        </svg>
+      </div>
     );
   }
 };

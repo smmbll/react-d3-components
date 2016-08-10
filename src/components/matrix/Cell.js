@@ -3,26 +3,22 @@ import constants from './constants';
 const Cell = (cell,j) => {
   let style = {};
   let i = cell.i;
-  let cellClass = 'cell';
+  let bindX = !!cell.z ? i : null;
+  let bindY = !!cell.z ? j : null;
 
-  if(cell.fill) {
-    style.fill = cell.fill;
-    cellClass += ' filled';
-    style.fillOpacity = cell.opacity;
-  } else {
-    style.fillOpacity = 0;
-  }
+  style.fill = cell.fill;
+  style.fillOpacity = cell.opacity;
 
   return (
       <rect
         style={style}
-        className={cellClass}
+        className="cell"
         x={j * constants.rowHeight}
         y="0"
         width={constants.cellSide}
         height={constants.cellSide}
         key={'cell-' + i + j}
-        onMouseEnter={cell.color ? cell.onHover.bind(null,i,j) : null}
+        onMouseEnter={cell.onHover.bind(null,bindX,bindY)}
       >
       </rect>
   );

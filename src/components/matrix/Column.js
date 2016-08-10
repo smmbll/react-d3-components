@@ -1,21 +1,21 @@
 import constants from './constants';
+import classes from '../../helpers/classes';
 
 const Column = (props) => {
   let index = props.index;
   let height = props.height;
-  let colTransform = `translate(${index * 11.5},0)rotate(-90)`;
-  let selTransform = `translate(${-height},0)`;
-  let classes = 'column';
-
-  classes += props.highlight ? ' highlight' : '';
+  let colTransform = `translate(${index * constants.rowHeight},0)rotate(-90)`;
+  let labelTransform = `rotate(45)`;
+  let colClasses = classes({ column: true, highlight: props.highlight });
 
   return (
-    <g className={classes} transform={colTransform} key={'column-' + index}>
+    <g className={colClasses} transform={colTransform} key={'column-' + index}>
       <text
         className="label"
         textAnchor="start"
         x="6"
-        y="9"
+        y="1"
+        transform={labelTransform}
       >
         {props.label}
       </text>
